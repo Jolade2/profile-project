@@ -25,3 +25,29 @@ body {
 .about-page section h2 {
     margin-top: 0;
 }
+
+.dashboard-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.dashboard-page caption {
+    margin-bottom: 0.5rem;
+    text-align: left;
+}
+
+.dashboard-page th,
+.dashboard-page td {
+    padding: 0.75rem;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+.dashboard-page th {
+    font-weight: bold;
+}
+
+.dashboard-page tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
